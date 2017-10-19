@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/index.css" />
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<input type="text" placeholder="搜索今日最新推荐"/>
+		</header>
+		<ul id="a">
+			<li>
+				<img src="img/img_03.png">
+				<p>美食</p>
+			</li>
+				<li>
+					<img src="img/img_05.png">
+					<p>水果</p>
+				</li>
+				<li>
+					<img src="img/img_07.png">
+					<p>干货</p>
+				</li>
+				<li>
+					<img src="img/img_09.png">
+					<p>营养师</p>
+				</li>
+				<li>
+					<img src="img/img_11.png">
+					<p>外卖</p>
+				</li>
+				<li>
+					<img src="img/img_18.png">
+					<p>定时</p>
+				</li>
+				<li>
+					<img src="img/img_19.png">
+				<p>定制菜谱</p>
+				</li>
+				<li>
+					<img src="img/img_20.png">
+					<p>月子餐</p>
+				</li>
+				<li>
+					<img src="img/img_21.png">
+					<p>甜点</p>
+				</li>
+				<li>
+					<img src="img/img_22.png">
+					<p>更多</p>
+				</li>
+		</ul>
+		<p id="b">— 热门菜谱 &nbsp;BEST —</p>
+		<ul id="c">
+			<li>
+				<div class="left">
+					<img src="img/img_28.png" />
+				</div>
+				<div class="right">
+					<p>红烧排骨</p>
+					<p>猪排骨提供人体生理必需的优质蛋白质、脂肪，尤其是丰富的钙质可以维护骨骼健康</p>
+				</div>
+			</li>
+			<li>
+				<div class="left">
+					<img src="img/img_31.png" />
+				</div>
+				<div class="right">
+					<p>蔬菜拌面</p>
+					<p>吃500克的瓜菜，等于喝了450ml高质量水，所有瓜果蔬菜有降低血压，保护血管的作用</p>
+				</div>
+			</li>
+		</ul>
+		<p id="b">— 为你优选 &nbsp;BEST —</p>
+		<ul id="d">
+			<li>
+				<img src="img/img_33.png" />
+			</li>
+			<li>
+				<img src="img/img_35.png" />
+			</li>
+			<li>
+				<img src="img/img_37.png" />
+			</li>
+		</ul>
+		<!--底部导航-->
+		<footer>
+			<ul>
+				<li>
+					<img src="img/img_42.png" />
+					<p>首页</p>
+				</li>
+				<li>
+					<img src="img/img_44.png" />
+					<p>发现</p>
+				</li>
+				<li>
+					<img src="img/img_46.png" />
+					<p>视频</p>
+				</li>
+				<li>
+					<img src="img/img_48.png" />
+					<p>社区</p>
+				</li>
+				<li>
+					<img src="img/img_50.png" />
+					<p/>我的</p>
+				</li>
+			</ul>
+		</footer>
+	</body>
+	<script>
+		(function(win,doc) {
+		            //浏览器缩放大小时
+		            win.onresize = function() {
+		                change();
+		            };
+		            change();
+		            function change() {
+		                var nFs = doc.documentElement.clientWidth/(750/2/20);
+		                doc.documentElement.style.fontSize = nFs+'px';
+		            }
+		        })(window,document);
+		        
+		
+	</script>
+</html>
